@@ -2,6 +2,7 @@ version: '3'
 
 services:
   nginx:
+    restart: always
     build:
       context: ./services/nginx
     ports:
